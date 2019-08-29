@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MJRxSwift_Example' do
+  pod 'MJRxSwift', :path => '../'
+
+  target 'MJRxSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
