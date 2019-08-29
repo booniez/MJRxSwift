@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0CD51CAFC0E77699361E6EF0 /* Pods-MJRxSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJRxSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-MJRxSwift_Example/Pods-MJRxSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		32C4052CD0B7967693F94A18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3E3550AC307F7500BCC9F14B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		32C4052CD0B7967693F94A18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3E3550AC307F7500BCC9F14B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MJRxSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJRxSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		62147C8C8E58AE19C0B99D27 /* Pods-MJRxSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJRxSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-MJRxSwift_Example/Pods-MJRxSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8C66CE4B379EFAD1F184B693 /* Pods_MJRxSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJRxSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA08E909F32EBA4FB182397E /* MJRxSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MJRxSwift.podspec; path = ../MJRxSwift.podspec; sourceTree = "<group>"; };
+		CA08E909F32EBA4FB182397E /* MJRxSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MJRxSwift.podspec; path = ../MJRxSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CE2251634CDDB15F1E24A284 /* Pods_MJRxSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJRxSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFA66B855622BEBD95FB1BE /* Pods-MJRxSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJRxSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MJRxSwift_Tests/Pods-MJRxSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA4D100440DFC20701E05CDC /* Pods-MJRxSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJRxSwift_Tests.release.xcconfig"; path = "Target Support Files/Pods-MJRxSwift_Tests/Pods-MJRxSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +86,6 @@
 				DAFA66B855622BEBD95FB1BE /* Pods-MJRxSwift_Tests.debug.xcconfig */,
 				FA4D100440DFC20701E05CDC /* Pods-MJRxSwift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
