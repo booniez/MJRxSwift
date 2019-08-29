@@ -20,6 +20,14 @@ it, simply add the following line to your Podfile:
 pod 'MJRxSwift'
 ```
 
+## Usage
+
+you use `ControlProperty` to finish refresh
+
+```
+tableView.mj_header.rx.refresh
+```
+
 ## Author
 
 JLM, yuanl@ccwcar.com
