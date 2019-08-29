@@ -22,7 +22,6 @@ class Target: NSObject, Disposable {
     }
 }
 
-private final
 class MJRefreshTarget<Component: MJRefreshComponent>: Target {
     weak var component: Component?
     let refreshingBlock: MJRefreshComponentRefreshingBlock
@@ -45,7 +44,7 @@ class MJRefreshTarget<Component: MJRefreshComponent>: Target {
 }
 
 extension Reactive where Base: MJRefreshComponent {
-    var refresh: ControlProperty<MJRefreshState> {
+    public var refresh: ControlProperty<MJRefreshState> {
         let source: Observable<MJRefreshState> = Observable.create { [weak component = self.base] observer  in
             MainScheduler.ensureExecutingOnScheduler()
             guard let component = component else {
